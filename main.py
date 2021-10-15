@@ -53,4 +53,8 @@ for post in facebook_posts:
 
 print(total_likes)
 
+#remember not like a recipe.  of always using all keywords for exception handling.
+#situation determines what to use.
+#also remember to use pass when appropriate
+
 
