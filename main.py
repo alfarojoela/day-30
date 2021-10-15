@@ -17,4 +17,17 @@ else: #do if NO exceptions
 finally: #do this no matter what happens
     file.close()
 
+    #raise KeyError #allows to raise own exceptions.
+
+#example:
+
+height = float(input("Height: "))
+weight = int(input("Weight: "))
+
+if height > 3:  #although not an error with logic or computation, highly unlikely user will be over 3 meters.
+    raise ValueError
+
+bmi = weight / height **2
+print(bmi)
+
 
