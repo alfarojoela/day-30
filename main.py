@@ -1,5 +1,6 @@
 #exception handling example
 
+#can have multiple exceptions
 try: #something that might cause an exception
     file = open("a_file.txt")
     a_dictionary={"key": "value"}
